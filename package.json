@@ -1,0 +1,31 @@
+{
+  "name": "babel-minify-loader",
+  "version": "1.0.0",
+  "dependencies": {
+    "babel-minify": "^0.5.1"
+  },
+  "description": "Webpack loader with babel-minify used for source minification",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lancedikson/babel-minify-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "minification",
+    "minify",
+    "babel",
+    "babel-minify"
+  ],
+  "author": "Denis Demchenko (lancedikson)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lancedikson/babel-minify-loader/issues"
+  },
+  "homepage": "https://github.com/lancedikson/babel-minify-loader#readme"
+}

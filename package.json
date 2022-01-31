@@ -22,6 +22,13 @@
     "babel",
     "babel-minify"
   ],
+  "files": [
+    "index.js",
+    "LICENSE",
+    "package.json",
+    "package-lock.json",
+    "README.md"
+  ],
   "author": "Denis Demchenko (lancedikson)",
   "license": "MIT",
   "bugs": {

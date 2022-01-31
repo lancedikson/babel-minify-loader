@@ -4,11 +4,7 @@ module.exports = function (content) {
   this.cacheable && this.cacheable();
   this.value = content;
 
-  const {code} = minify(content, {
-    mangle: {
-      keepClassName: true,
-    },
-  });
+  const {code} = minify(content);
   return code;
 }
 module.exports.seperable = true;
